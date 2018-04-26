@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="default" path="/" methods="GET">
+        <default key="_controller">
+            ffuf\customer\project\app\controller\TaskController::getIndexPage
+        </default>
+    </route>
+
+    <!--CREATE-->
+    <route id="task-create" path="/task/create/" methods="POST">
+        <default key="_controller">
+            ffuf\customer\project\app\controller\TaskController::postTask
+        </default>
+        <default key="a15l.deserialize.class">
+            ffuf\customer\project\app\model\Task
+        </default>
+        <default key="a15l.deserialize.param">task</default>
+    </route>
+
+    <!--DELETE-->
+    <route id="delete-task" path="/task/{id}/" methods="POST">
+        <default key="_controller">
+            ffuf\customer\project\app\controller\TaskController::deleteTask
+        </default>
+        <!--
+        <default key="a15l.deserialize.class">
+            ffuf\customer\project\app\model\Task
+        </default>
+        <default key="a15l.deserialize.param">task</default>
+        -->
+    </route>
+
+    <!--EdIT-->
+    <route id="edit-task" path="/task/{id}/" methods="GET">
+        <default key="_controller">
+            ffuf\customer\project\app\controller\TaskController::editTask
+        </default>
+        <!--
+        <default key="a15l.deserialize.class">
+            ffuf\customer\project\app\model\Task
+        </default>
+        <default key="a15l.deserialize.param">Task</default>
+        -->
+    </route>
+
+    <!--UPDATE-->
+    <route id="update-task" path="/task/{id}/update/" methods="GET">
+        <default key="_controller">
+            ffuf\customer\project\app\controller\TaskController::updateTask
+        </default>
+        <!--
+        <default key="a15l.deserialize.class">
+            ffuf\customer\project\app\model\Task
+        </default>
+        <default key="a15l.deserialize.param">task</default>
+        -->
+    </route>
+
+
+
+    <!--Finished-->
+    <route id="task-finished" path="/task/{id}/update/time/" methods="POST">
+        <default key="_controller">
+            ffuf\customer\project\app\controller\TaskController::finishedAt
+        </default>
+        <!--
+        <default key="a15l.deserialize.class">
+            ffuf\customer\project\app\model\Task</default>
+        <default key="a15l.deserialize.param">task</default>
+        -->
+    </route>
+</routes>

@@ -1,0 +1,23 @@
+{
+  "name": "a15l/symfony-validation-lazyloader",
+  "type": "library",
+  "description": "Lazy loaders for Symfony Validator to handle per file configurations",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Schlegel",
+      "email": "mail@a15l.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "symfony/validator": "2.8.0 - 3",
+    "symfony/config": "2.8.0 - 3"
+  },
+  "autoload": {
+    "psr-4": {
+      "a15l\\cmp\\symfony\\validator\\lazyloader\\": ""
+    }
+  }
+}

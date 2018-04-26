@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/a15l/request-deserializer" />
+      <path value="$PROJECT_DIR$/vendor/a15l/http-kernel-error-logger" />
+      <path value="$PROJECT_DIR$/vendor/a15l/deserializer" />
+      <path value="$PROJECT_DIR$/vendor/a15l/serialization-metadata" />
+      <path value="$PROJECT_DIR$/vendor/a15l/symfony-validation-lazyloader" />
+      <path value="$PROJECT_DIR$/vendor/a15l/symfony-validation-container" />
+      <path value="$PROJECT_DIR$/vendor/a15l/serialization-events" />
+      <path value="$PROJECT_DIR$/vendor/xvsys/csrf" />
+      <path value="$PROJECT_DIR$/vendor/xvsys/autoresponse" />
+      <path value="$PROJECT_DIR$/vendor/phastl/phastl" />
+      <path value="$PROJECT_DIR$/vendor/yapcdi/yapcdi" />
+      <path value="$PROJECT_DIR$/vendor/yapcdi/symfony-ctrl-resolver" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+    </include_path>
+  </component>
+</project>

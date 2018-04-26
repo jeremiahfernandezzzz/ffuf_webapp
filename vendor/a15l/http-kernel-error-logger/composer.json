@@ -1,0 +1,22 @@
+{
+  "name": "a15l/http-kernel-error-logger",
+  "type": "library",
+  "description": "Logger Container",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Schlegel",
+      "email": "mail@a15l.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "symfony/http-kernel": "2.6.6 - 3"
+  },
+  "autoload": {
+    "psr-4": {
+      "a15l\\cmp\\symfony\\http\\error\\logger\\": "lib/"
+    }
+  }
+}

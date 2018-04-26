@@ -1,0 +1,23 @@
+{
+  "name": "a15l/request-deserializer",
+  "type": "library",
+  "description": "Request deserializer",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Schlegel",
+      "email": "mail@a15l.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "symfony/http-kernel": "2.6.6 - 3",
+    "a15l/deserializer": "^2.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "a15l\\serialization\\request\\deserializer\\": ""
+    }
+  }
+}

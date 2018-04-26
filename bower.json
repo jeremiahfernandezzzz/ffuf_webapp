@@ -1,0 +1,15 @@
+{
+  "name": "ffuf_webapp",
+  "version": "0.1",
+  "dependencies": {
+    "bootstrap": "latest"
+  },
+  "install": {
+    "path": "assets/components",
+    "sources": {
+      "bootstrap": "bower_components/bootstrap/dist/**",
+      "fontawesome": "bower_components/fontawesome/**",
+      "jquery": "bower_components/jquery/dist/**"
+    }
+  }
+}
