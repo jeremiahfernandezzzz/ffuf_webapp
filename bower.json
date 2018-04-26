@@ -2,7 +2,8 @@
   "name": "ffuf_webapp",
   "version": "0.1",
   "dependencies": {
-    "bootstrap": "latest"
+    "bootstrap": "latest",
+    "components-font-awesome": "^5.0.6"
   },
   "install": {
     "path": "assets/components",

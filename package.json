@@ -1,0 +1,16 @@
+{
+  "name": "ffuf_webapp",
+  "version": "1.0.0",
+  "description": "## Before Starting",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.8.4",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
